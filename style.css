@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Dhurjati&family=Kanit:wght@100&family=Nova+Square&family=Oswald:wght@300&family=Poppins:wght@200&family=Roboto+Mono:wght@100;300&family=Rubik+Bubbles&display=swap');
+*{
+    font-family: Poppins;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.logo{
+    color: antiquewhite;
+    margin-right: 600px;
+}
+nav{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    position: sticky;
+    top: 0px;
+    align-items: center;
+    justify-content: center;
+}
+nav ul{
+    display: flex;
+    font-weight: bold;
+    color: crimson;
+}
+nav ul a{
+    margin: 20px;
+    color: antiquewhite;
+    text-decoration: none;
+}
+nav ul a:hover{
+    color: crimson;
+    text-decoration: underline;
+}
+#profile{
+    margin-bottom: 0px;
+}
+#profile img{
+    width: 100%;
+    height: 800px;    
+}
+h3{
+    color: antiquewhite;
+    font-size: xx-large;
+    text-shadow: 5px 5px 1  1px olive;
+    text-align: center;
+    margin: 15px;
+    margin-top: 0px;
+
+}
+h3:hover{
+    text-shadow: none;
+    color: rgb(183, 41, 41);
+}
+.pic img{
+    border-radius: 40%;
+    margin: 20px;
+    right: 20px;
+    margin-top: 60px;
+}
+.pic{
+    display: flex;
+}
+.pic p{
+    text-align: justify;
+    margin: 40px;
+}
+h4{
+    text-align: center;
+    text-decoration: underline;
+    color: antiquewhite;
+    margin: 50px;
+}
+#about{
+    background-color: black;
+    color: antiquewhite;
+    font-size: larger;
+    padding: 50px;
+    margin-top: 0px;
+}
+.wiki{
+    color: blue;
+    text-decoration: none;
+}
+.wiki:hover{
+    text-decoration: underline;
+} 
+.row1,.row2,.row4{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    width: 300px;
+    height: 650px;
+    margin: 30px;
+    border: 2px solid darkolivegreen;
+    background: linear-gradient(to bottom,rgb(164, 168, 159) 50%, white 50%);
+    background-size: 100% 200%;
+    transition: all 0.8s;
+}
+.box img{
+    width: 100%;
+    height: 200px;
+}
+.box:hover{
+    border: none;
+    background-position: bottom;
+}
+.box h4{
+    color: black;
+}
+.box p{
+    text-align: justify;
+}
+.gallery{
+    display: flex;
+    justify-content: center;
+}
+.gallery img{
+    width: 350px;
+    height: 350px;
+    padding: 10px; 
+}
+.gallery img:hover{
+    box-shadow: 10px 10px 5px black;
+}
+h5{
+    background-color: rgb(181, 179, 176);
+    font-size: large;
+}
+.row1,.row2{
+    height: 700px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    margin: 0px;
+}
+.col{
+    background-color: rgb(0, 0, 0);
+    height: 450px;
+    width: 400px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0px;
+
+}
+img{
+    height: 200px;
+    width: 100%;
+}   
+.col img:hover{
+    width: 500px;
+    height: 250px;
+} 
+ #video{
+    margin-left: 400px;
+ }
+#video h3{
+    margin-right: 450px;
+}
+.footer{
+    background-color: rgb(0, 0, 0);  
+}
+.footer h4{
+    text-decoration: none;
+    font-size: large;
+}
+.footer p{
+    color: antiquewhite;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+    font-size: small;
+}
+.footer iframe{
+    margin-top: 30px;
+}      
+
+/* media query */
+@media screen and (max-width: 400px) {
+    .logo{
+        color: antiquewhite;
+        margin-right: 0px;
+        font-size: x-small;
+        
+    }
+    nav{
+        width: 100%;
+        height: 20px;
+        background-color: black;
+        display: flex;
+        position: sticky;
+        top: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+    nav ul{
+        display: flex;
+        font-weight: bold;
+        color: crimson;
+        font-size: xx-small;
+
+    }
+    nav ul a{
+        margin: 4px;
+        color: antiquewhite;
+        text-decoration: none;
+    }
+    nav ul a:hover{
+        color: crimson;
+        text-decoration: underline;
+    }
+    #profile{
+        margin-bottom: 0px;
+    }
+    #profile img{
+        width: 100%;
+        height: 250px;    
+    }
+    .pic{
+        display: flex;
+        flex-direction: column;
+    }
+    .pic img {
+        height: 100px;
+        width: 100px;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .pic h4{
+        font-size: small;
+        margin-right: 60px;
+        margin-top: 20px;
+        
+    }
+    .pic p{
+        font-size: xx-small;
+        text-align: inherit;
+        margin-top: 10px;
+    }
+    #about h3{
+        font-size: medium;
+        margin-left: 0px;
+    }
+    
+    #innovations h3{
+        font-size: medium;
+        margin-top: 0px;
+        margin-top: 0px;
+    }
+    #innovations .row1{
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        margin: 0px;
+        margin-top: 200px;
+    }
+    #innovations .row2{
+        height: 700px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 10px;
+        margin: 0px;
+        margin-top: 330px;
+
+    }
+    #innovations .box{
+        width: 200px;
+        height: 450px;
+        margin: 10px;
+        border: 2px solid darkolivegreen;
+        background: linear-gradient(to bottom,rgb(164, 168, 159) 50%, white 50%);
+        background-size: 100% 200%;
+        transition: all 0.8s;   
+    }
+    .box img{
+        width: 100%;
+        height: 150px;
+    }
+    .box h4{
+        color: black;
+        font-size: small;
+        margin-top: 0px;
+    }
+    .box p{
+        text-align: justify;
+        font-size: x-small;
+        
+    }
+    .box:hover{
+        border: none;
+        background-position: bottom;
+    }
+    #awards{
+        margin-top: 250px;
+    }
+    #awards h3{
+        font-size: medium;
+    }
+    #awards .row4{
+        display: flex;
+        flex-direction: column;
+    }
+    #awards .row4 .col h5{
+        font-size: small;
+    }
+    #awards .row4 .col img{
+        height: 200px;
+        width: 250px;
+        margin-left: 45px;
+        margin-top: 10px;
+    }
+    #awards .row4 .col{
+        margin-top: 10px;
+        height: 300px;
+    }
+    #awards .row4 .col img:hover{
+        width: 300px;
+        height: 230px;
+    }
+    #video{
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    } 
+    #video h3{
+        font-size: medium;
+        margin-left: 170px;
+    }
+    #video iframe{
+        height: 200px;
+        width: 290px;
+        margin-left: 50px;   
+    }
+    .footer iframe{
+        height: 200px;
+        width: 380px;
+    }
+    .footer h4{
+        font-size: small;
+        margin-bottom: 30px;
+    }
+    .footer p{
+        font-size: xx-small;
+        margin-top: 0px;
+    }
+
+
+    
+
+
+    
+}
+
+
+
